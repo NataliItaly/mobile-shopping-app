@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Your shopping list</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="title">What do you want to buy?</h1>
+      <img src="assets/cat.png" alt="cat in the shopping cart" />
+      <form action="@" class="form" id="form">
+        <input
+          type="text"
+          class="form__input"
+          id="new-good"
+          placeholder="Enter a good"
+        />
+        <button class="form__btn">Add to list</button>
+      </form>
+      <ul id="shopping-list" class="shopping-list"></ul>
+    </div>
+
+    <script type="module" src="script.js"></script>
+  </body>
+</html>
